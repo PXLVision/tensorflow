@@ -21,7 +21,7 @@ include(OverridableFetchContent)
 
 OverridableFetchContent_Declare(
   eigen
-  GIT_REPOSITORY https://gitlab.com/libeigen/eigen
+  GIT_REPOSITORY https://github.com/PXLVision/eigen
   # TODO: Verify this is the version required by TFLite
   GIT_TAG d10b27fe37736d2944630ecd7557cefa95cf87c9
   # It's not currently (cmake 3.17) possible to shallow clone with a GIT TAG
